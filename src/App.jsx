@@ -3,12 +3,14 @@ import Hero from './components/Hero'
 import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
+import Stacks from './components/Stacks'
 
 function App() {
   return (
     <div className="min-h-screen bg-white text-neutral-900">
       <Hero />
       <Work />
+      <Stacks />
       <About />
       <Contact />
       {/* Footer */}
@@ -18,6 +20,7 @@ function App() {
           <div className="flex items-center gap-4 text-sm text-neutral-600">
             <a href="#home" className="hover:text-black">Top</a>
             <a href="#work" className="hover:text-black">Work</a>
+            <a href="#stack" className="hover:text-black">Stack</a>
             <a href="#about" className="hover:text-black">About</a>
             <a href="#contact" className="hover:text-black">Contact</a>
           </div>
